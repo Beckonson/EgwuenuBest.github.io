@@ -11,12 +11,12 @@ document.addEventListener("DOMContentLoaded", function () {
   if (typeof Typed !== "undefined") {
     var typed = new Typed(".multiple-text", {
       strings: [
-        "Software Development Engineer in Test (SDET)",
-        "QA Automation Engineer",
-        "Software QA Analyst",
+        "An SDET",
+        "A QA Automation Engineer",
+        "A Software QA Analyst",
         "Backend Tester",
-        "Rest Api Tester",
-        "Software Test Engineer",
+        "REST API Tester",
+        "Non Functional Tester",
         "Manual Tester",
         "System Administrator",
       ],
@@ -117,10 +117,10 @@ function sendEmail() {
   // Use EmailJS or another service for sending the email (avoid storing credentials in client-side code)
   Email.send({
     Host: "smtp.elasticemail.com",
-    Username: "patrick.udo50@gmail.com",
+    Username: "beckonson@gmail.com",
     Password: "A5EFD4A99B77EB8E6D871F146D260608ACAE", // Not secure - ideally should be server-side
-    To: "patrick.udo50@gmail.com",
-    From: "patrick.udo50@gmail.com",
+    To: "beckonson@gmail.com",
+    From: "beckonson@gmail.com",
     Subject: subject.value,
     Body: bodyMessage,
   })
